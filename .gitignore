@@ -1,0 +1,97 @@
+# ============================
+# IdentityForge Git Ignore
+# ============================
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.app
+*.so
+*.dylib
+
+# Rider / VS Code / VS user files
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio generated files
+*.cache
+*.dbmdl
+*.bak
+*.ncb
+*.opendb
+*.VC.db
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+IdentityForge.Application/
+IdentityForge.Domain/
+IdentityForge.Infrastructure/
+
+# ASP.NET / Blazor publish
+# Ignore only generated content inside wwwroot, keep static assets you add
+IdentityForge.Web/wwwroot/dist/
+IdentityForge.Web/wwwroot/build/
+IdentityForge.Web/wwwroot/node_modules/
+IdentityForge.Web/wwwroot/libman.json
+IdentityForge.Web/wwwroot/**/*.map
+
+# If you use npm/yarn/pnpm in wwwroot
+IdentityForge.Web/wwwroot/package-lock.json
+IdentityForge.Web/wwwroot/yarn.lock
+IdentityForge.Web/wwwroot/pnpm-lock.yaml
+
+# Entity Framework
+Migrations/obj/
+*.mdf
+*.ldf
+
+# Secrets (don't commit)
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+
+# Publish output
+publish/
+PublishProfiles/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Coverage reports
+*.coverage
+*.coveragexml
+TestResults/
+
+# Local tools
+.env
+.env.local
+.env.development
+.env.production
+
+# Others
+*.swp
+*.tmp
+*.temp
